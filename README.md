@@ -4,7 +4,7 @@ A naval survival game where you control a ship, avoid islands and fight enemies.
 
 Play online
 
-The public game link will be added after deployment.
+[Play Pirate Battle](https://exquisite-melba-1e2885.netlify.app)
 
 Run locally
 

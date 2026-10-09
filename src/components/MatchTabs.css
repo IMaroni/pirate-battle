@@ -1,0 +1,26 @@
+.match-tab-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.match-tab-buttons button {
+  background: #262626;
+  border: 1px solid #737373;
+}
+
+.match-tab-buttons button:hover {
+  background: #404040;
+}
+
+.match-tab-buttons button[aria-selected='true'] {
+  background: #b91c1c;
+  border-color: #b91c1c;
+}
+
+.match-tabs [role='tabpanel']:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}

@@ -1,0 +1,38 @@
+.history-panel {
+  padding-top: 16px;
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.history-list li {
+  margin-bottom: 12px;
+  padding: 12px;
+  background: #082f49;
+  border-radius: 8px;
+}
+
+.history-list time {
+  color: #bae6fd;
+}
+
+.history-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.history-pagination button {
+  padding: 10px 14px;
+}
+
+.history-pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}

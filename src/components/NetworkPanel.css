@@ -1,0 +1,48 @@
+.network-panel {
+  margin-top: 10px;
+  padding: 19px;
+  text-align: left;
+}
+
+.network-panel summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.network-panel label {
+  display: block;
+  margin: 16px 0 8px;
+}
+
+.network-panel select {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px;
+  font: inherit;
+}
+
+.network-panel select:focus-visible {
+  outline: 2px solid #ffee00;
+  border-radius: 5px;
+  outline-offset: 2px;
+}
+
+.network-apply-actions {
+  display: flex;
+}
+
+.network-reset-button {
+  background: transparent;
+  border: 1px solid #737373;
+  display: flex;
+}
+
+.network-reset-button:hover {
+  background: #262626;
+}
+
+.buttonsNetwork{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

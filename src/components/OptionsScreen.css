@@ -1,0 +1,35 @@
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.settings-form input {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px;
+  border: 1px solid #bae6fd;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #172033;
+  font: inherit;
+}
+
+.settings-form input:focus-visible {
+  outline: 3px solid #fbbf24;
+  outline-offset: 2px;
+}
+
+.settings-form input[type='number']::-webkit-inner-spin-button,
+.settings-form input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.settings-form input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

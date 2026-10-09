@@ -1,0 +1,26 @@
+.result-details {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 24px 0;
+}
+
+.result-details dt {
+  color: #bae6fd;
+}
+
+.result-details dd {
+  margin: 8px 0 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.result-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.match-registration {
+  margin: 16px 0;
+}

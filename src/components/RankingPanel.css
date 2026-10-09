@@ -1,0 +1,41 @@
+.ranking-panel {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #38bdf8;
+}
+
+.ranking-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.ranking-panel caption {
+  margin-bottom: 12px;
+  color: #bae6fd;
+}
+
+.ranking-panel th,
+.ranking-panel td {
+  padding: 10px 6px;
+  border-bottom: 1px solid #167d9a;
+  overflow-wrap: anywhere;
+}
+
+.ranking-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.ranking-pagination button {
+  padding: 10px 14px;
+}
+
+.ranking-pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
